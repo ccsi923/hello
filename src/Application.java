@@ -5,8 +5,8 @@ public class Application {
         System.out.println("Please enter the amount of euros");
 
         Scanner sc = new Scanner(System.in);
-        double gbp = sc.nextDouble();
+        double gbpRaul = sc.nextDouble();
 
-        System.out.println("The amount on pounds is " + gbp * 0.84);
+        System.out.println("The amount on pounds is " + gbpRaul * 0.84);
     }
 }
